@@ -6,11 +6,3 @@ export default defineConfig({
   plugins: [react()],
   base: '/Memoria-AI/',
 })
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
-
-export default defineConfig({
-  plugins: [
-    tailwindcss(),
-  ],
-})
